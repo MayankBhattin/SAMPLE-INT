@@ -1,0 +1,142 @@
+<!-- THIS IS STUDENT PROFILE PAGE !-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Profile</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #eeeeee;
+    }
+
+    .app {
+      max-width: 400px;
+      min-height: 100vh;
+      margin: auto;
+      background: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 8px;
+    }
+
+    .college {
+      color: #666;
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .bio {
+      color: #444;
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      font-size: 19px;
+      margin-bottom: 12px;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 25px;
+    }
+
+    .skill {
+      background: #eeeeee;
+      padding: 8px 13px;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .button {
+      padding: 12px;
+      background: #222;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .button:hover {
+      background: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+
+    <!-- Profile Photo -->
+    <img
+      class="photo"
+      src="https://tse2.mm.bing.net/th/id/OIP.CIn8fInVEpY4ti24C9LfWgHaFJ?r=0&pid=Api&h=220&P=0"
+      alt="Profile Photo"
+    >
+
+    <!-- Name -->
+    <h1>MAYANK BHATT </h1>
+
+    <!-- College / Branch -->
+    <p class="college">
+     VIPS-TC <BR>
+      BCA
+    </p>
+
+    <!-- Bio -->
+    <p class="bio">
+      Hello! I am Mayank BHATT of BCA 1st year. I am a student of VIPS-TC, I know basics of programming in Python, SQL, HTML, CSS
+    </p>
+
+    <!-- Skills -->
+    <h2>Skills</h2>
+    <div class="skills">
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">Python</span>
+      <span class="skill">SQL </span>
+    </div>
+
+    <!-- Contact / Social Buttons -->
+    <h2>Contact</h2>
+    <div class="buttons">
+      <a class="button" href="tel:1234567890">📞 Call</a> <br>
+      <a class="button" href="mailto:xyz@gmail.com">✉️ Email</a> <br>
+      <a class="button" href="https://github.com/" target="_blank">GitHub</a> <br>
+      <a class="button" href="https://linkedin.com/" target="_blank">LinkedIn</a> <br>
+      
+    </div>
+
+  </div>
+</body>
+</html>
